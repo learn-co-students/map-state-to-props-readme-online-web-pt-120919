@@ -3,6 +3,7 @@ import './App.css';
 
 class App extends Component {
 
+  
   handleOnClick() {
     this.props.dispatch({
       type: 'INCREASE_COUNT',
